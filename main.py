@@ -62,6 +62,11 @@ def handle_text(message):
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
     bot.send_message(message.chat.id, 'Напиши /pogoda')
+    
+@bot.message_handler(commands=["mycode"])
+def my_code(message):
+    bot.send_message(message.chat.id, 'https://github.com/VayLorm/Weather-Python-Bot.git')
+
 
 
 # Запускаем бота
