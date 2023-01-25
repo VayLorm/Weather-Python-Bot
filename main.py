@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 import pytz
 
-bot = telebot.TeleBot('5902055569:AAG-1es0nyGCSiISXtVzBxsWMmgHDIEmRpI')
+bot = telebot.TeleBot('token here')
 dnt1 = '𝔞𝔤𝔤𝔯𝔢𝔰𝔰𝔦𝔳𝔢𝔫𝔢𝔰𝔰 [ℝ𝕋]'
 dnt2 = 'Пока что нету'
 dnt3 = 'Если хочешь здесь'
